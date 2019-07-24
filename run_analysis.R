@@ -121,23 +121,8 @@ groupedata <- group_by(extr_mean_std,Subject, Activity)
 
 sum_ea_data <- summarise_each(groupedata, funs(mean))
 
-## average of each variable for each 3) methods for doing it FOR INFO ONLY
 
-## Method 1)
-## agg2 = aggregate(groupedata,
-##                 by = list(groupedata$Activity, groupedata$Subject),
-##                 FUN = mean)
-
-## Method 2)
-## df2 <- extr_mean_std %>% group_by(Activity, Subject) %>% summarise_all(mean)
-
-## Method 3)
-## df4 <- group_by(extr_mean_std, extr_mean_std$Activity, extr_mean_std$Subject)
-##  df5 <- summarise_all(df4, mean)
-
-
-## arrange(sum_ea_data,Subject, Activity) if needed to be ordered by Subject first (eg when ordered by Activity first)
-
+## arrange(sum_ea_data,Subject, Activity)
 
 ## Create a file with final result
 
