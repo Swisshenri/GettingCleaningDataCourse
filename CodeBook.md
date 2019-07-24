@@ -9,18 +9,18 @@ The data supplied is the following:
 
 1.1) "Features.txt": Is a file containing all the mesurement types/variables used. It shows information about the variables used on the feature vector.  It has two columns: Number and the description of the feature / variables. There are 561 measurement variables. Eg. of the first 10 rows. ( This is a copy of View () command on the file content)
 
-	
-  1	  tBodyAcc-mean()-X
-  2	  tBodyAcc-mean()-Y
-  3	  tBodyAcc-mean()-Z
-  4	  tBodyAcc-std()-X
-  5	  tBodyAcc-std()-Y
-  6	  tBodyAcc-std()-Z
-  7	  tBodyAcc-mad()-X
-  8	  tBodyAcc-mad()-Y
-  9	  tBodyAcc-mad()-Z
-  10	tBodyAcc-max()-X
-Showing 1 to 10 of 561 entries, 2 total columns
+
+  | 1	|  tBodyAcc-mean()-X|
+  | 2	|  tBodyAcc-mean()-Y|
+  | 3	|  tBodyAcc-mean()-Z|
+  | 4	|  tBodyAcc-std()-X |
+  | 5	|  tBodyAcc-std()-Y |
+  | 6	|  tBodyAcc-std()-Z |
+  | 7	|  tBodyAcc-mad()-X |
+  | 8	|  tBodyAcc-mad()-Y |
+  | 9	|  tBodyAcc-mad()-Z |
+  |10	|  tBodyAcc-max()-X |
+  |Showing 1 to 10 of 561 entries, 2 total columns|
 
 	
 1.2) "Activity_labels.txt". It describes the activity performed. Links the class labels with their activity name. The file has six entries with two columns. Number of activity and the activity description:
