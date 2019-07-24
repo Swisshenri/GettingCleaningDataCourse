@@ -24,7 +24,10 @@ The data supplied is the following:
 ​
 12
         
-13
+13| Hellor  | Second Header |
+| ------------- | ------------- |
+| 1 | tBodyAcc-mean()-X  |
+| Content Cell  | Content Cell  |
   1       tBodyAcc-mean()-X
 14
   2       tBodyAcc-mean()-Y
