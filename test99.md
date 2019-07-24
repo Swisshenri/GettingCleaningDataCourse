@@ -22,10 +22,14 @@ You can build tables to organize information in comments, issues, pull requests,
 Creating a table
 You can create tables with pipes | and hyphens -. Hyphens are used to create each column's header, while pipes separate each column. You must include a blank line before your table in order for it to correctly render.
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+1.1) "Features.txt": Is a file containing all the mesurement types/variables used. It shows information about the variables used on the feature vector. It has two columns: Number and the description of the feature / variables. There are 561 measurement variables. Eg. of the first 10 rows. ( This is a copy of View () command on the file content)
+
+| 1	| tBodyAcc-mean()-X| | 2	| tBodyAcc-mean()-Y| | 3	| tBodyAcc-mean()-Z| | 4	| tBodyAcc-std()-X | | 5	| tBodyAcc-std()-Y | | 6	| tBodyAcc-std()-Z | | 7	| tBodyAcc-mad()-X | | 8	| tBodyAcc-mad()-Y | | 9	| tBodyAcc-mad()-Z | |10	| tBodyAcc-max()-X | |Showing 1 to 10 of 561 entries, 2 total columns|
+
+| tBodyAcc-mean()-X  | tBodyAcc-mean()-Y | tBodyAcc-mean()-Z |
+| ------------- | ------------- |------------- |
+| 100 |100  |100  |
+| 200 | 200 |200 |
 Rendered table
 
 The pipes on either end of the table are optional.
