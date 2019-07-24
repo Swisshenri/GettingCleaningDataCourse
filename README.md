@@ -35,8 +35,9 @@ Run this project
 	
 		
 	>setwd("~/Documents/JOHN HOPKINS UNIV/MONTH 03 Get&CleanData/UCI HAR Dataset")
+	>workDir <- "~/Documents/JOHN HOPKINS UNIV/MONTH 03 Get&CleanData/UCI HAR Dataset"
 
-  >workDir <- "~/Documents/JOHN HOPKINS UNIV/MONTH 03 Get&CleanData/UCI HAR Dataset"
+  
 	
 	2.	Run source("run_analysis.R") to execute the analysis
 	3.	Find a new file called "Clean_File2.csv" in your working directory
