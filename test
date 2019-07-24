@@ -2,26 +2,89 @@
 
 
 CodeBook
+2
 Getting and Cleaning Data Course Project
-
+3
+​
+4
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. This is the code book that describes the variables, the data, and any transformations or work  performed to clean up the data.
-
+5
+​
+6
 1. Data Collection Description
-
+7
+​
+8
 The data supplied is the following:
-
+9
+​
+10
 1.1) "Features.txt": Is a file containing all the mesurement types/variables used. It shows information about the variables used on the feature vector.  It has two columns: Number and the description of the feature / variables. There are 561 measurement variables. Eg. of the first 10 rows. ( This is a copy of View () command on the file content)
-
-	
-  1	  tBodyAcc-mean()-X
-  2	  tBodyAcc-mean()-Y
-  3	  tBodyAcc-mean()-Z
-  4	  tBodyAcc-std()-X
-  5	  tBodyAcc-std()-Y
-  6	  tBodyAcc-std()-Z
-  7	  tBodyAcc-mad()-X
-  8	  tBodyAcc-mad()-Y
-  9	  tBodyAcc-mad()-Z
-  10	tBodyAcc-max()-X
+11
+​
+12
+        
+13
+  1       tBodyAcc-mean()-X
+14
+  2       tBodyAcc-mean()-Y
+15
+  3       tBodyAcc-mean()-Z
+16
+  4       tBodyAcc-std()-X
+17
+  5       tBodyAcc-std()-Y
+18
+  6       tBodyAcc-std()-Z
+19
+  7       tBodyAcc-mad()-X
+20
+  8       tBodyAcc-mad()-Y
+21
+  9       tBodyAcc-mad()-Z
+22
+  10    tBodyAcc-max()-X
+23
 Showing 1 to 10 of 561 entries, 2 total columns
-
+24
+​
+25
+        
+26
+1.2) "Activity_labels.txt". It describes the activity performed. Links the class labels with their activity name. The file has six entries with two columns. Number of activity and the activity description:
+27
+​
+28
+  1     WALKING
+29
+  2     WALKING_UPSTAIRS
+30
+  3     WALKING_DOWNSTAIRS
+31
+  4     SITTING
+32
+  5     STANDING
+33
+  6     LAYING
+34
+​
+35
+1.3) "X_train" is a file containing all the training set numbers. Ithas 561 columns (correspond to the measurements for ea. of the features per column) and 7352 rows. (Just showing 5 columns and 6 rows) 
+36
+        
+37
+​
+38
+  0.28858451    -0.020294171    -0.13290514     -0.9952786      -0.98311061
+39
+  0.27841883    -0.016410568    -0.12352019     -0.9982453      -0.97530022
+40
+  0.27965306    -0.019467156    -0.11346169     -0.9953796      -0.96718701
+41
+  0.27917394    -0.026200646    -0.12328257     -0.9960915      -0.98340270
+42
+  0.27662877    -0.016569655    -0.11536185     -0.9981386      -0.98081727
+43
+  0.27719877    -0.010097850    -0.10513725     -0.9973350      -0.99048681
+44
+  Showing 1 to 6 of 7,352 entries, 561 total columns
