@@ -1,39 +1,59 @@
-# GettingCleaningDataCourse
+# CodeBook
 Getting and Cleaning Data Course Project
-Coursera - Getting and Cleaning Course Project
 
-Assignment
-The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. I am submitting:
-	1.	A tidy data set as described below
-	2.	A link to a Github repository with your script for performing the analysis
-	3.	A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
+The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. This is the code book that describes the variables, the data, and any transformations or work  performed to clean up the data.
 
-Data
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Here are the data for the project:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+1. Data Collection Description
 
-Script functionality
-	1.	Merges the training and the test sets to create one data set.
-	2.	Extracts only the measurements on the mean and standard deviation for each measurement.
-	3.	Uses descriptive activity names to name the activities in the data set
-	4.	Appropriately labels the data set with descriptive variable names.
-	5.	Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+The data supplied is the following:
 
-CodeBook
-The CodeBook for this project can be found here. It explains the transformations performed and the resulting data and variables in detail.
+1.1) "Features.txt": Is a file containing all the mesurement types/variables used. It shows information about the variables used on the feature vector.  It has two columns: Number and the description of the feature / variables. There are 561 measurement variables. Eg. of the first 10 rows. ( This is a copy of View () command on the file content)
 
-Prerequisite
-The UCI HAR Dataset.zip data needs to be unpacked and provided in the folder UCI HAR Dataset. 
-
-Run this project
-	1.	Set your working directory in R to where these project files are (or copy to project files to your working directory) using the setwd() function.
 	
 	
 	IMPORTANT NOTE:
 	Change these two commands to your actual working directory (the following is my case only)
 	
 		
+
+
+
+
+
+
+
+
+1
+1
+tBodyAcc-mean()-X
+2
+2
+tBodyAcc-mean()-Y
+3
+3
+tBodyAcc-mean()-Z
+4
+4
+tBodyAcc-std()-X
+5
+5
+tBodyAcc-std()-Y
+6
+6
+tBodyAcc-std()-Z
+7
+7
+tBodyAcc-mad()-X
+8
+8
+tBodyAcc-mad()-Y
+9
+9
+tBodyAcc-mad()-Z
+10
+10
+tBodyAcc-max()-X
+
 	>setwd("~/Documents/JOHN HOPKINS UNIV/MONTH 03 Get&CleanData/UCI HAR Dataset")
 	>workDir <- "~/Documents/JOHN HOPKINS UNIV/MONTH 03 Get&CleanData/UCI HAR Dataset"
 
